@@ -1,0 +1,189 @@
+
+* {
+    margin: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat', sans-serif;
+    
+}
+body {
+	background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+	max-width: 2000px;
+}
+
+/*Grid*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+
+
+
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+		clear: both;
+}
+[class*="col-"]{
+	float:left;
+	min-height:1px;
+	padding: 15px; 
+}
+.info {
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+.info h1 {
+	padding-bottom: 30px;
+	font-size: 40px;
+}
+.info button:hover{
+	background-position: right center;
+	cursor: pointer;
+	transform: scale(1.2)
+
+}
+.info button {
+	width: 220px;
+	height: 60px;
+	border-radius: 25px;
+	transition: 0.5s;
+  background-size: 200% auto;
+	box-shadow: 0 0 20px #eee;
+	border: none;
+	text-transform: uppercase;
+	background-image: -webkit-linear-gradient(left, #f6d365 0%, #fda085 51%, #f6d365 100%);
+	background-image: -o-linear-gradient(left, #f6d365 0%, #fda085 51%, #f6d365 100%);
+	background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+	font-weight: 900;
+}
+.column {
+	text-align: center;
+}
+.column-card-list {
+	list-style-type: none;
+}
+.card .btn-delete {
+	margin-left: 350px
+}
+.btn-delete{
+	background: none;
+	border: none;
+	margin: 10px;
+	font-size: 20px;
+	color: #ED9E0A;
+	
+	
+}
+.btn-delete:hover {
+	transform: scale(1.5);
+	
+}
+.card {
+	text-align: center;
+	margin: 5px;
+	font-size: 18px;
+	margin-bottom: 6px;
+	width: 100%;
+	background: #02111D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #02111D, #037BB5, #02111D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #02111D, #037BB5, #02111D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #222222;
+	font-weight: 600;
+	
+	
+	
+}
+.column-card-list {
+
+	list-style-type:none;
+	
+}
+.column-card-list p {
+	padding: 3px;
+}
+.column-title {
+	font-size: 30px;
+	margin-bottom: 20px;
+	
+}
+
+.add-card {
+	
+	height: 60px;
+	border-radius: 25px;
+	transition: 0.5s;
+  background-size: 200% auto;
+	box-shadow: 0 0 20px #eee;
+	border: none;
+	text-transform: uppercase;
+	background-image: -webkit-linear-gradient(left, #f6d365 0%, #fda085 51%, #f6d365 100%);
+	background-image: -o-linear-gradient(left, #f6d365 0%, #fda085 51%, #f6d365 100%);
+	background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+	font-weight: 900;
+	margin-left: 150px;
+	margin-bottom: 20px
+}
+.add-card:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*
+medium docelowo RWD
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+*/
+
+
+
